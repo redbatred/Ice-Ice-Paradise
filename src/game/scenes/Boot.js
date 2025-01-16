@@ -16,6 +16,11 @@ export default class Boot extends Scene {
 );
 this.load.image('tileset', 'assets/environment/tileset.png');
 this.load.tilemapTiledJSON('map', 'assets/maps/map.json');
+// Load background music
+        this.load.audio('song1', '/assets/sounds/Song1.mp3');
+        this.load.audio('song2', '/assets/sounds/Song2.mp3');
+
+
 
     }
 
